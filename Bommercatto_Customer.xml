@@ -1,0 +1,17 @@
+<config>
+<!-- ... -->
+  <modules>
+<!-- ... -->
+<!-- declare Bommercatto_Shipping module -->
+    <Bommercatto_Customer>
+      <active>true</active>
+      <codePool>local</codePool>
+       <depends>
+                <Mage_Customer /><!-- your module should depend on Mage_Customer -->
+                <Mage_Adminhtml /><!-- your module should depend on Mage_Adminhtml also -->
+            </depends>
+    </Bommercatto_Customer>
+<!-- ... -->
+  </modules>
+<!-- ... -->
+</config>
